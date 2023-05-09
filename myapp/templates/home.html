@@ -1,0 +1,21 @@
+<!-- home.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+</head>
+<body>
+    {% if messages %}
+  {% for message in messages %}
+    <div class="alert alert-success">
+     <h2 style="font-size:18px; padding-left:4px;"> {{ message }}</h2> 
+    </div>
+  {% endfor %}
+{% endif %}
+
+</body>
+</html>
+
+
+
+
