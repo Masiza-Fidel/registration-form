@@ -1,7 +1,9 @@
 from django.shortcuts import render, redirect
 from django.contrib import messages
 from .models import UserRegistration
+from django.views.decorators.csrf import csrf_exempt
 
+@csrf_exempt
 def register_user(request):
     if request.method == 'POST':
         # Get all the data from the form and save it to the database
