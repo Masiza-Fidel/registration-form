@@ -17,7 +17,7 @@ body{
 .container{
     width: 100%;
     max-width: 650px;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgb(14, 14, 204);
     padding: 28px;
     margin: 0 28px;
     border-radius: 10px;
@@ -104,11 +104,11 @@ body{
     border:none;
     border-radius: 3px;
     color: rgb(209, 209, 209);
-    background: rgba(63, 114, 76, 0.7);
+    background: blue;
 }
 
 .form-submit-btn input:hover{
-    background: rgba(56, 204, 93, 0.7);
+    background:rgb(3, 3, 45);
     color: rgb(255, 255, 255);
 }
 
